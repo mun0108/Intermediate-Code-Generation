@@ -112,7 +112,7 @@ while(cnt<ind)
         	else
 		{
 		
-			printf("%c\t",temp);
+			printf("%c\t",expr[cnt]);
 			
 			
 			}
@@ -122,9 +122,9 @@ while(cnt<ind)
 		if(isalpha(code[cnt].opd2))
 			printf("%c\t",code[cnt].opd2);
 		else
-		{printf("%c\t",temp);}
+		{printf("%c\t",expr[cnt]);}
 		
-		printf("%c",temp);
+		printf("%c",expr[cnt]);
 
 	printf("\n");
 	cnt++;
